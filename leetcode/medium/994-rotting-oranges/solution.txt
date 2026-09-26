@@ -1,0 +1,43 @@
+
+        while(!q.isEmpty() && fresh>0)
+        {
+            int size=q.size();
+
+            //One BFS level=one minute
+            for(int i=0;i<size;i++)
+            {
+                int[] curr=q.poll();
+                int r=curr[0];
+                int c=curr[1];
+
+                //Check 4 directions
+                for(int k=0;k<4;k++)
+                {
+
+                int nr=r+dr[k];
+                int nc=c+dc[k];
+
+                //check boundaries
+
+                if(nr<0 || nr>=n || nc<0 || nc>=m)
+                {
+                    continue;
+                }
+                //If fresh oranges
+                if(grid[nr][nc]==1)
+                {
+                    grid[nr][nc]=2;
+                    fresh--;
+                    q.add(new int[]{nr,nc});
+                }
+            }
+        }
+        time++;
+        }
+        if(fresh>0)
+        {
+            return -1;
+        }
+        return time;    
+    }
+}
