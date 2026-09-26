@@ -1,0 +1,19 @@
+class Solution {
+    public int maxSubArray(int[] nums) 
+    {
+        int op1=nums[0];
+        int op2=nums[0];
+        int ans=nums[0];
+        int best=nums[0];
+
+        for(int i=1;i<nums.length;i++)
+        {
+            op1=best+nums[i];
+            op2=nums[i];
+
+            best=Math.max(op1,op2);
+            ans=Math.max(ans,best);
+        }
+        return ans;
+    }
+}
