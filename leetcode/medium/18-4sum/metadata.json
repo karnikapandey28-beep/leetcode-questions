@@ -1,0 +1,24 @@
+{
+  "title": "4Sum",
+  "titleSlug": "4sum",
+  "frontendQuestionId": "18",
+  "leetcodeUrl": "https://leetcode.com/problems/4sum/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-09-27T14:33:27.019Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "HINT",
+  "helpLabel": "Needed hint",
+  "focusSeconds": null,
+  "syncedAt": "2026-09-27T14:33:56.034Z"
+}
