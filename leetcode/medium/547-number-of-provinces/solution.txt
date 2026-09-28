@@ -1,32 +1,32 @@
-       int n=isConnected.length;
+        int n=isConnected.length;
         boolean[] vis=new boolean[n];
         int count=0;
 
         for(int i=0;i<n;i++)
         {
-        if(!vis[i])
-        {
-            count+=1;
-
-            Queue<Integer>q=new LinkedList<>();
-
-            q.add(i);
-            vis[i]=true;
-
-            while(!q.isEmpty())
+            if(!vis[i])
             {
-                int x=q.poll();
-                for(int j=0;j<n;j++)
+                count+=1;
+
+                Queue<Integer>q=new LinkedList<>();
+
+                q.add(i);
+                vis[i]=true;
+
+                while(!q.isEmpty())
                 {
-                    if(x!=j && isConnected[x][j]==1 && !vis[j])
+                    int x=q.poll();
+                    for(int j=0;j<n;j++)
                     {
-                        vis[j]=true;
-                        q.add(j);
+                        if(isConnected[x][j]==1 && !vis[j])
+                        {
+                            vis[j]=true;
+                            q.add(j);
+                        }
                     }
                 }
             }
         }
-        }
-        return count;                 
+        return count;
     }
 }
