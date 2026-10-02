@@ -1,0 +1,23 @@
+{
+  "title": "Search in Rotated Sorted Array II",
+  "titleSlug": "search-in-rotated-sorted-array-ii",
+  "frontendQuestionId": "81",
+  "leetcodeUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-02T21:51:35.823Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-02T21:51:39.531Z"
+}
