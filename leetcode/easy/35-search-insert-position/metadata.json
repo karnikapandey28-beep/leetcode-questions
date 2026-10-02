@@ -1,0 +1,23 @@
+{
+  "title": "Search Insert Position",
+  "titleSlug": "search-insert-position",
+  "frontendQuestionId": "35",
+  "leetcodeUrl": "https://leetcode.com/problems/search-insert-position/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-02T09:32:45.104Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "EXTERNAL",
+  "helpLabel": "Used external help",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-02T09:33:02.719Z"
+}
