@@ -1,0 +1,27 @@
+{
+  "title": "Is Graph Bipartite?",
+  "titleSlug": "is-graph-bipartite",
+  "frontendQuestionId": "785",
+  "leetcodeUrl": "https://leetcode.com/problems/is-graph-bipartite/",
+  "difficulty": "Medium",
+  "topics": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union-Find",
+    "Graph Theory",
+    "Graph Coloring",
+    "Bipartite Graph"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-03T11:18:08.840Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "EXTERNAL",
+  "helpLabel": "Used external help",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-03T11:18:12.769Z"
+}
