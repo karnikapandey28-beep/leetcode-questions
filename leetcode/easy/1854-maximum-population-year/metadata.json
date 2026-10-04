@@ -1,0 +1,24 @@
+{
+  "title": "Maximum Population Year",
+  "titleSlug": "maximum-population-year",
+  "frontendQuestionId": "1854",
+  "leetcodeUrl": "https://leetcode.com/problems/maximum-population-year/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Counting",
+    "Prefix Sum"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-04T17:46:11.596Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "EXTERNAL",
+  "helpLabel": "Used external help",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-04T17:46:14.985Z"
+}
