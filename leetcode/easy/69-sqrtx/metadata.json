@@ -1,0 +1,24 @@
+{
+  "title": "Sqrt(x)",
+  "titleSlug": "sqrtx",
+  "frontendQuestionId": "69",
+  "leetcodeUrl": "https://leetcode.com/problems/sqrtx/",
+  "difficulty": "Easy",
+  "topics": [
+    "Math",
+    "Binary Search",
+    "Newton's Method"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-15T19:28:28.968Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-15T19:28:40.330Z"
+}
