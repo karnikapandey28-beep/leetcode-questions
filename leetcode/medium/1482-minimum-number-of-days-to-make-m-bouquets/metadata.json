@@ -1,0 +1,23 @@
+{
+  "title": "Minimum Number of Days to Make m Bouquets",
+  "titleSlug": "minimum-number-of-days-to-make-m-bouquets",
+  "frontendQuestionId": "1482",
+  "leetcodeUrl": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-16T11:00:34.030Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-16T11:00:40.146Z"
+}
