@@ -1,0 +1,33 @@
+for(int i=0;i<weights.length;i++)
+        {
+            high+=weights[i];
+            low=Math.max(low,weights[i]);
+        }
+        while(low<=high)
+        {
+            int count=1; //Start with day 1
+            int sum=0;   //Weight loaded on the current day 
+            int mid=low+(high-low)/2;
+            for(int i=0;i<weights.length;i++)
+            {
+                if(sum+weights[i]>mid)
+                {
+                    count+=1; //Start a new day
+                sum=weights[i];  //Load this package on that day
+            }
+            else
+            {
+                sum+=weights[i];  //Add to current day
+            }
+        }
+                if(count<=days)
+                {
+                    res=mid;     //This capacity works
+                    high=mid-1;   //Try a smaller capacity
+                }
+                else if(count>days)
+                {
+                    low=mid+1;      //Need a larger capacity
+                }
+        }
+        return re

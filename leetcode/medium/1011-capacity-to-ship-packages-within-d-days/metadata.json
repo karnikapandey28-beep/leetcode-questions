@@ -1,0 +1,23 @@
+{
+  "title": "Capacity To Ship Packages Within D Days",
+  "titleSlug": "capacity-to-ship-packages-within-d-days",
+  "frontendQuestionId": "1011",
+  "leetcodeUrl": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-17T12:17:02.069Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-17T12:17:11.483Z"
+}
