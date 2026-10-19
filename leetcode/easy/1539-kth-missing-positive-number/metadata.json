@@ -1,0 +1,23 @@
+{
+  "title": "Kth Missing Positive Number",
+  "titleSlug": "kth-missing-positive-number",
+  "frontendQuestionId": "1539",
+  "leetcodeUrl": "https://leetcode.com/problems/kth-missing-positive-number/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-19T03:16:13.547Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-19T03:16:16.016Z"
+}
