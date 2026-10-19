@@ -1,0 +1,26 @@
+{
+  "title": "Split Array Largest Sum",
+  "titleSlug": "split-array-largest-sum",
+  "frontendQuestionId": "410",
+  "leetcodeUrl": "https://leetcode.com/problems/split-array-largest-sum/",
+  "difficulty": "Hard",
+  "topics": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Greedy",
+    "Prefix Sum"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-19T05:38:27.052Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-19T05:38:42.839Z"
+}
