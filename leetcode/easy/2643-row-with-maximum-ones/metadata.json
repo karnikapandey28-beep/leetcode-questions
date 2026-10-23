@@ -1,0 +1,23 @@
+{
+  "title": "Row With Maximum Ones",
+  "titleSlug": "row-with-maximum-ones",
+  "frontendQuestionId": "2643",
+  "leetcodeUrl": "https://leetcode.com/problems/row-with-maximum-ones/",
+  "difficulty": "Easy",
+  "topics": [
+    "Array",
+    "Matrix"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-23T18:04:04.267Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-23T18:04:06.120Z"
+}
