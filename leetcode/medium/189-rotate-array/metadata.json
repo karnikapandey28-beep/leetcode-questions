@@ -1,0 +1,24 @@
+{
+  "title": "Rotate Array",
+  "titleSlug": "rotate-array",
+  "frontendQuestionId": "189",
+  "leetcodeUrl": "https://leetcode.com/problems/rotate-array/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Math",
+    "Two Pointers"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-10-29T09:30:37.500Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-10-29T09:30:39.495Z"
+}

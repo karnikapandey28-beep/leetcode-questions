@@ -1,0 +1,33 @@
+class Solution {
+    public void rotate(int[] nums, int k) 
+    {
+        int n=nums.length;
+        if(n==0)
+        return;
+
+        k=k%n;
+        
+        int[] arr=new int[n];
+        int a=0;
+
+        //Copy the last k elements first
+        for(int i=n-k;i<n;i++)
+        {
+            arr[a]=nums[i];
+            a++;
+        }
+
+        //Copy the remaining elements
+        for(int i=0;i<n-k;i++)
+        {
+            arr[a]=nums[i];
+            a++;
+        }
+
+        //Copy the rotated array back
+        for (int i=0;i<n;i++)
+        {
+            nums[i]=arr[i];
+        }    
+    }
+}
