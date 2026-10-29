@@ -1,0 +1,41 @@
+istNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public boolean isPalindrome(ListNode head) 
+    {
+        if(head==null || head.next==null)
+        {
+            return true;
+        }
+        //Find the middle
+        ListNode slow=head;
+        ListNode fast=head;
+
+        while(fast!=null && fast.next!=null)
+        {
+            slow=slow.next;
+            fast=fast.next.next;      
+        }
+        //For an odd length list skip the middle node
+        if(fast!=null)
+        {
+            slow=slow.next;
+        }
+        //Reverse the second half
+        ListNode second=reverse(slow);
+        ListNode first=head;
+
+        //Compare both halves
+        while(second!=null)
+        {
+            if(first.val!=second.val)
+            {
+                return false;
+            }
+            first=first.next;
+            second=second.next;
+        }
+        return tru
