@@ -1,0 +1,26 @@
+index + 1, 0, prices, dp);
+
+            profit = Math.max(sellStock, skip);
+        }
+
+        return dp[index][buy] = profit;
+    }
+
+
+    // LeetCode provides this function
+    public int maxProfit(int[] prices) {
+
+        int n = prices.length;
+
+        int[][] dp = new int[n][2];
+
+        // Traditional for loop
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 2; j++) {
+                dp[i][j] = -1;
+            }
+        }
+
+        return solve(0, 1, prices, dp);
+    }
+}
