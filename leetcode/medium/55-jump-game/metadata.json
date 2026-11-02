@@ -1,0 +1,24 @@
+{
+  "title": "Jump Game",
+  "titleSlug": "jump-game",
+  "frontendQuestionId": "55",
+  "leetcodeUrl": "https://leetcode.com/problems/jump-game/",
+  "difficulty": "Medium",
+  "topics": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-11-02T16:01:14.717Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-11-02T16:01:20.517Z"
+}
