@@ -1,0 +1,23 @@
+{
+  "title": "Delete the Middle Node of a Linked List",
+  "titleSlug": "delete-the-middle-node-of-a-linked-list",
+  "frontendQuestionId": "2095",
+  "leetcodeUrl": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+  "difficulty": "Medium",
+  "topics": [
+    "Linked List",
+    "Two Pointers"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-11-06T14:33:59.427Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-11-06T14:34:02.382Z"
+}
