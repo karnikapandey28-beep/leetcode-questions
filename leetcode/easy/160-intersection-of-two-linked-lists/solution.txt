@@ -1,5 +1,4 @@
-e(int x) {
- *         val = x;
+    val = x;
  *         next = null;
  *     }
  * }
@@ -7,20 +6,20 @@ e(int x) {
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) 
     {
-        ListNode t1=headA;
-        while(t1!=null)
+        Map<ListNode,Integer>map=new HashMap<>();
+        ListNode t=headA;
+        while(t!=null)
         {
-            ListNode t2=headB;
-            while(t2!=null)
-            {
-                if(t1==t2)
-                {
-                    return t1;
-                }
-                t2=t2.next;
-            }
-            t1=t1.next;
+            map.put(t,1);
+            t=t.next;
         }
-        return null;    
+        t=headB;
+        while(t!=null)
+        {
+            if(map.containsKey(t))
+            return t;
+            t=t.next;
+        }
+        return null;        
     }
 }
