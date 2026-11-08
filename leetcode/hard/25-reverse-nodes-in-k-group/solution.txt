@@ -1,0 +1,28 @@
+   while(curr!=nextNode)
+            {
+                ListNode next=curr.next;
+
+                curr.next=prev;
+                prev=curr;
+                curr=next;
+            }
+            //prev=new head of reversed group
+            if(prevNode==null)
+            {
+                head=prev;
+            }
+            else
+            {
+                prevNode.next=prev;
+            }
+            //temp is now the last node of the reversed group
+            temp.next=nextNode;
+            
+            prevNode=temp;
+
+            //Move to next group
+            temp=nextNode; 
+        }
+        return head;   
+    }
+}
