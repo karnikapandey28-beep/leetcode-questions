@@ -1,0 +1,23 @@
+{
+  "title": "Rotate List",
+  "titleSlug": "rotate-list",
+  "frontendQuestionId": "61",
+  "leetcodeUrl": "https://leetcode.com/problems/rotate-list/",
+  "difficulty": "Medium",
+  "topics": [
+    "Linked List",
+    "Two Pointers"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-11-08T19:35:20.538Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-11-08T19:35:22.519Z"
+}
