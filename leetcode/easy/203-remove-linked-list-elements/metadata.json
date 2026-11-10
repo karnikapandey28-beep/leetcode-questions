@@ -1,0 +1,23 @@
+{
+  "title": "Remove Linked List Elements",
+  "titleSlug": "remove-linked-list-elements",
+  "frontendQuestionId": "203",
+  "leetcodeUrl": "https://leetcode.com/problems/remove-linked-list-elements/",
+  "difficulty": "Easy",
+  "topics": [
+    "Linked List",
+    "Recursion"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-11-10T10:50:03.642Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-11-10T10:50:10.454Z"
+}
