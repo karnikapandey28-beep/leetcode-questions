@@ -1,0 +1,23 @@
+{
+  "title": "Swap Nodes in Pairs",
+  "titleSlug": "swap-nodes-in-pairs",
+  "frontendQuestionId": "24",
+  "leetcodeUrl": "https://leetcode.com/problems/swap-nodes-in-pairs/",
+  "difficulty": "Medium",
+  "topics": [
+    "Linked List",
+    "Recursion"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-11-16T05:17:31.030Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "NONE",
+  "helpLabel": "Solved solo",
+  "focusSeconds": null,
+  "syncedAt": "2026-11-16T05:17:56.737Z"
+}
