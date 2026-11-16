@@ -1,13 +1,9 @@
-   while(curr!=nextNode)
-            {
-                ListNode next=curr.next;
-
-                curr.next=prev;
+=prev;
                 prev=curr;
                 curr=next;
             }
             //prev=new head of reversed group
-            if(prevNode==null)
+            if(prevNode ==null)
             {
                 head=prev;
             }
@@ -15,13 +11,12 @@
             {
                 prevNode.next=prev;
             }
-            //temp is now the last node of the reversed group
+            //temp is now the lastNode of the reversed group
             temp.next=nextNode;
-            
             prevNode=temp;
 
             //Move to next group
-            temp=nextNode; 
+            temp=nextNode;
         }
         return head;   
     }
