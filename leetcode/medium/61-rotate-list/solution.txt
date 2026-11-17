@@ -1,5 +1,4 @@
-/**
- * Definition for singly-linked list.
+ngly-linked list.
  * public class ListNode {
  *     int val;
  *     ListNode next;
@@ -11,35 +10,41 @@
 class Solution {
     public ListNode rotateRight(ListNode head, int k) 
     {
-        if(head==null || head.next==null || k==0)
-        return head;
-        
-        ListNode tail=head;
+        if(head==null || head.next==null)
+        {
+            return head;
+        }
+
+        //Calculate length
+
         int len=1;
+        ListNode tail=head;
         while(tail.next!=null)
         {
             tail=tail.next;
-            len+=1;
+            len++;
         }
+
+        //Handle large k
+
         k=k%len;
-
         if(k==0)
-        return head;
-
-
-        tail.next=head;
-        ListNode newLastNode=findNthNode(head,len-k);
-
-        ListNode newHead=newLastNode.next;
-        newLastNode.next=null;
-
-        return newHead;
-    }
-    ListNode findNthNode(ListNode head,int n)
-    {
-        int cnt=1;
-
-        while(cnt<n)
         {
-            head=head.next;
-        
+            return head;
+        }
+        //Return two pointer
+        ListNode fast=head;
+        ListNode slow=head;
+
+        //Move fast k steps ahead
+        for(int i=0;i<k;i++)
+        {
+            fast=fast.next;
+        }
+
+        //Move both pointers
+
+        while(fast.next!=null)
+        {
+            slow=slow.next;
+            fast=fast.
