@@ -1,4 +1,6 @@
-    ListNode dummy=new ListNode(-1);
+ist2)
+    {
+        ListNode dummy=new ListNode(-1);
         ListNode temp=dummy;
 
         while(list1!=null && list2!=null)
@@ -19,7 +21,7 @@
         {
             temp.next=list1;
         }
-        if(temp.list2!=null)
+        if(list2!=null)
         {
             temp.next=list2;
         }
