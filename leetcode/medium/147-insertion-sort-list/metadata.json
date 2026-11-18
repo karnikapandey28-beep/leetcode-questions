@@ -1,0 +1,23 @@
+{
+  "title": "Insertion Sort List",
+  "titleSlug": "insertion-sort-list",
+  "frontendQuestionId": "147",
+  "leetcodeUrl": "https://leetcode.com/problems/insertion-sort-list/",
+  "difficulty": "Medium",
+  "topics": [
+    "Linked List",
+    "Sorting"
+  ],
+  "language": "Unknown",
+  "verdict": "Accepted",
+  "submissionId": null,
+  "submittedAt": "2026-11-18T02:41:33.876Z",
+  "runtimeMs": null,
+  "memoryKb": null,
+  "totalCorrect": null,
+  "totalTestcases": null,
+  "helpType": "PENDING_SELF_REPORT",
+  "helpLabel": "Pending self report",
+  "focusSeconds": null,
+  "syncedAt": "2026-11-18T02:41:35.680Z"
+}
